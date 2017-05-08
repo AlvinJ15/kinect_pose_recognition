@@ -1,0 +1,6 @@
+c:\users\alvin\documents\visual studio 2017\Projects\Bogotec\Bogotec\bin\Debug\Bogotec.exe.config
+c:\users\alvin\documents\visual studio 2017\Projects\Bogotec\Bogotec\bin\Debug\Bogotec.exe
+c:\users\alvin\documents\visual studio 2017\Projects\Bogotec\Bogotec\bin\Debug\Bogotec.pdb
+c:\users\alvin\documents\visual studio 2017\Projects\Bogotec\Bogotec\obj\Debug\Bogotec.csprojResolveAssemblyReference.cache
+c:\users\alvin\documents\visual studio 2017\Projects\Bogotec\Bogotec\obj\Debug\Bogotec.exe
+c:\users\alvin\documents\visual studio 2017\Projects\Bogotec\Bogotec\obj\Debug\Bogotec.pdb
