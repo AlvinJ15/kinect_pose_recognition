@@ -4,3 +4,31 @@ c:\users\alvin\documents\visual studio 2017\Projects\Bogotec\Bogotec\bin\Debug\B
 c:\users\alvin\documents\visual studio 2017\Projects\Bogotec\Bogotec\obj\Debug\Bogotec.csprojResolveAssemblyReference.cache
 c:\users\alvin\documents\visual studio 2017\Projects\Bogotec\Bogotec\obj\Debug\Bogotec.exe
 c:\users\alvin\documents\visual studio 2017\Projects\Bogotec\Bogotec\obj\Debug\Bogotec.pdb
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\obj\Debug\Bogotec.csprojResolveAssemblyReference.cache
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\obj\Debug\Bogotec.exe
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\obj\Debug\Bogotec.pdb
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\Bogotec.exe.config
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\Bogotec.exe
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\Bogotec.pdb
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\AForge.Controls.dll
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\AForge.dll
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\AForge.Genetic.dll
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\AForge.Imaging.dll
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\AForge.Math.dll
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\AForge.Neuro.dll
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\AForge.Video.dll
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\Apps.engine.KinectRecognition.dll
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\Microsoft.Kinect.dll
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\Apps.engine.neuron.dll
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\Apps.engine.KinectRecognition.pdb
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\Apps.engine.KinectRecognition.dll.config
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\AForge.xml
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\AForge.Controls.xml
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\AForge.Genetic.xml
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\AForge.Imaging.xml
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\AForge.Math.xml
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\AForge.Neuro.xml
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\AForge.Video.xml
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\Microsoft.Kinect.xml
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\Apps.engine.neuron.pdb
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\Apps.engine.neuron.dll.config
