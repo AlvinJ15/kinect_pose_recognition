@@ -14,6 +14,10 @@ namespace Apps.engine.neuron
 
         private List<OutputDataType> outputRecords;
 
+        public void Initialize()
+        {
+
+        }
         private Dictionary<OutputDataType, long> outputDataMap;
         public HistogramPattern()
         {
@@ -65,6 +69,16 @@ namespace Apps.engine.neuron
         }
 
         public void processData()
+        {
+            throw new NotImplementedException();
+        }
+
+        public double[] processInputDataRecord(InputDataType inputRecord)
+        {
+            throw new NotImplementedException();
+        }
+
+        public OutputDataType processOutputDataRecord(double[] outputRecord)
         {
             throw new NotImplementedException();
         }

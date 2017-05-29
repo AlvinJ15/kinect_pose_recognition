@@ -8,8 +8,9 @@ namespace Apps.engine.neuron
 {
     public interface INeuralNetworkPattern<InputDataType, OutputDataType>
     {
+        //void Initialize();
 
-        void enterTrainingRecord(InputDataType InputData, OutputDataType outputData);
+        void enterTrainingRecord(InputDataType inputRecord, OutputDataType outputRecord);
 
         void processData();
 
@@ -17,6 +18,8 @@ namespace Apps.engine.neuron
 
         double[][] getOutputDataProcessed();
 
+        double[] processInputDataRecord(InputDataType inputRecord);
 
+        OutputDataType processOutputDataRecord(double[] outputRecord);
     }
 }

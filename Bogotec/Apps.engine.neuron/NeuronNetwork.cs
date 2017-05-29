@@ -25,9 +25,9 @@ namespace Apps.engine.neuron
         private List<double[]> outputList;
         private IActivationFunction activateFunction;
 
-        public NeuronNetwork(IActivationFunction activateFunction, int iterations)
+        public NeuronNetwork(ActivationFunction activateFunction, int iterations)
         {
-            this.activateFunction = activateFunction;
+            this.activateFunction = activateFunction.Function;
             this.iterations = iterations;
         }
         public void addInputRecord(double[] inputRecord, double[] outputRecord)
@@ -47,15 +47,12 @@ namespace Apps.engine.neuron
             inputList.Add(inputRecord);
             outputList.Add(outputRecord);
         }
-        public void trainingNeuron()
+        public int trainingNeuron()
         {
-            inputData = inputList.ToArray();
-            outputData = outputList.ToArray();
-
-            double sigmoidAlphaValue = 1.0;
+            //inputData = inputList.ToArray();
+            //outputData = outputList.ToArray();
             network = new ActivationNetwork(
-                new BipolarSigmoidFunction(sigmoidAlphaValue),
-                inputData[0].Length, inputData[0].Length * 2, outputData[0].Length);
+                activateFunction, inputData[0].Length, inputData[0].Length * 2, outputData[0].Length);
 
             teacher = new BackPropagationLearning(network);
 
@@ -66,9 +63,9 @@ namespace Apps.engine.neuron
                 flag = false;
                 teacher.RunEpoch(inputData, outputData);
 
-                for (int i = 0; i < inputData.Length; i++)
+                for (int i = 0; i < inputData.Length && !flag; i++)
                 {
-                    if (!Array.Equals(outputData[i], ValidateOutput(network.Compute(inputData[i]))))
+                    if (!CompareOutput(outputData[i], ValidateOutput(network.Compute(inputData[i]))))
                     {
                         flag = true;
                     }
@@ -77,8 +74,18 @@ namespace Apps.engine.neuron
                 if (!flag)
                     break;
             }
+            return iterationsCount;
         }
 
+        public bool CompareOutput(double[] a, double[] b)
+        {
+            for(int i = 0; i < a.Length; i++)
+            {
+                if (a[i] != b[i])
+                    return false;
+            }
+            return true;
+        }
         public double[] predictInput(double[] input)
         {
             return ValidateOutput(network.Compute(input));
@@ -89,11 +96,11 @@ namespace Apps.engine.neuron
             double[] temp = new double[output.Length];
             for (int i = 0; i < output.Length; i++)
             {
-                if (output[i] > 0.75)
+                if (output[i] >= 0.75)
                 {
                     temp[i] = 1.0;
                 }
-                else if (output[i] < 0.25)
+                else if (output[i] <= 0.25)
                 {
                     temp[i] = 0.0;
                 }
