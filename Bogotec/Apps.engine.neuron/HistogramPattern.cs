@@ -61,7 +61,7 @@ namespace Apps.engine.neuron
                 var val = outputDataMap[outputRecords[i]];
                 for (int j = 0; j < outputResult[i].Length; j++)
                 {
-                    outputResult[i][j] = (double)(val | (1 << j));
+                    outputResult[i][j] = (double)(val & (1 << j));
                 }
             }
 
@@ -79,6 +79,11 @@ namespace Apps.engine.neuron
         }
 
         public OutputDataType processOutputDataRecord(double[] outputRecord)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void LoadTrainingData()
         {
             throw new NotImplementedException();
         }

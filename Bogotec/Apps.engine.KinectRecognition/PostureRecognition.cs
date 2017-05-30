@@ -14,11 +14,9 @@ namespace Apps.engine.KinectRecognition
 
         private INeuralNetworkPattern<InputDataType, OutputDataType> networkPattern;
 
-        private Dictionary<double[], OutputDataType> outputDataMap;
-
-        public PostureRecognition(PatternType patternType, int iterations)
+        public PostureRecognition(PatternType patternType, DataTrainingType dataTrainingType, int iterations)
         {
-            this.networkPattern = PatternResolver<InputDataType, OutputDataType>.ResolvePattern(patternType);
+            this.networkPattern = PatternResolver<InputDataType, OutputDataType>.ResolvePattern(patternType, dataTrainingType);
             var activationFunction = new ActivationFunction();
             activationFunction.InitializeSigmodeFunction(1.0);
             network = new NeuronNetwork(activationFunction, iterations);

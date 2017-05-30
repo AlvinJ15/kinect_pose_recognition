@@ -18,53 +18,38 @@ namespace Bogotec
         {
 
 
-            PostureRecognition<Skeleton, string> postureRecognition = new PostureRecognition<Skeleton, string>(PatternType.AnglePatternElbowKnee, 100000);
+            PostureRecognition<Skeleton, string> postureRecognition = new PostureRecognition<Skeleton, string>(PatternType.AnglePatternElbowKnee, DataTrainingType.DataTrainingFile, 100000);
 
+            FileStream fs = new FileStream("Test.txt", FileMode.Create);
+            // First, save the standard output.
+            TextWriter tmp = Console.Out;
+            StreamWriter sw = new StreamWriter(fs);
+            Console.SetOut(sw);
+            Console.WriteLine("ITERACION : " + postureRecognition.training() + "-------------------------------------------------------\n");
+            Console.WriteLine("VIDEO1 " + "-------------------------------------------------------");
 
-            /*************************************************************************************************************/
-            /*TODO: NEED CREATE INTERFACES FOR HANDLE THIS*/
-            //FileStream fs = new FileStream("Test.txt", FileMode.Create);
-            //// First, save the standard output.
-            //TextWriter tmp = Console.Out;
-            //StreamWriter sw = new StreamWriter(fs);
-            //Console.SetOut(sw);
-            //var lista = FromByteArray<List<Skeleton>>(File.ReadAllBytes("TRAINING_DATA/parado"));
-            //Enter(postureRecognition, lista, "PARADO");
+            var lista = FromByteArray<List<Skeleton>>(File.ReadAllBytes("TRAINING_DATA/video"));
+            foreach (Skeleton skel in lista)
+            {
+                var x = postureRecognition.Predict(skel);
+                if (x != null && x.Length > 0)
+                    Console.WriteLine(x);
+            }
+            Console.WriteLine("VIDEO2 " + "-------------------------------------------------------");
 
-            //lista = FromByteArray<List<Skeleton>>(File.ReadAllBytes("TRAINING_DATA/jeysonmanosabiertas"));
-            //Enter(postureRecognition, lista, "MANOS ABIERTAS");
-            //lista = FromByteArray<List<Skeleton>>(File.ReadAllBytes("TRAINING_DATA/johanmanosabiertas"));
-            //Enter(postureRecognition, lista, "MANOS ABIERTAS");
-
-            //lista = FromByteArray<List<Skeleton>>(File.ReadAllBytes("TRAINING_DATA/jeysonsentadilla"));
-            //lista = FromByteArray<List<Skeleton>>(File.ReadAllBytes("TRAINING_DATA/johansentadillas"));
-            //Enter(postureRecognition, lista, "SENTADILLA");
-
-            //Console.WriteLine("ITERACION : "+postureRecognition.training()+"-------------------------------------------------------\n");
-            //Console.WriteLine("VIDEO1 " + "-------------------------------------------------------");
-
-            //lista = FromByteArray<List<Skeleton>>(File.ReadAllBytes("TRAINING_DATA/video"));
-            //foreach(Skeleton skel in lista)
-            //{
-            //    var x = postureRecognition.Predict(skel);
-            //    if(x!= null && x.Length > 0)
-            //        Console.WriteLine(x);
-            //}
-            //Console.WriteLine("VIDEO2 " + "-------------------------------------------------------");
-
-            //lista = FromByteArray<List<Skeleton>>(File.ReadAllBytes("TRAINING_DATA/video2"));
-            //foreach (Skeleton skel in lista)
-            //{
-            //    var x = postureRecognition.Predict(skel);
-            //    if (x != null && x.Length > 0)
-            //        Console.WriteLine(x);
-            //    else
-            //    {
-            //        Console.WriteLine("NO RECONOCIDO");
-            //    }
-            //}
-            //Console.SetOut(tmp);
-            //sw.Close();
+            lista = FromByteArray<List<Skeleton>>(File.ReadAllBytes("TRAINING_DATA/video2"));
+            foreach (Skeleton skel in lista)
+            {
+                var x = postureRecognition.Predict(skel);
+                if (x != null && x.Length > 0)
+                    Console.WriteLine(x);
+                else
+                {
+                    Console.WriteLine("NO RECONOCIDO");
+                }
+            }
+            Console.SetOut(tmp);
+            sw.Close();
         }
         public static void Enter(PostureRecognition<Skeleton, string> postureRecognition,List<Skeleton> lista, string output)
         {
@@ -85,7 +70,5 @@ namespace Bogotec
                 return (T)obj;
             }
         }
-
-
     }
 }

@@ -69,19 +69,29 @@
   <ItemGroup>
     <Compile Include="ActivationFunction.cs" />
     <Compile Include="AnglePatternAll.cs" />
-    <Compile Include="AnglePattern.cs" />
+    <Compile Include="AnglePatternBase.cs" />
     <Compile Include="AnglePatternElbowKnee.cs" />
+    <Compile Include="DataTrainingFile.cs" />
+    <Compile Include="DataTypeResolver.cs" />
     <Compile Include="HistogramPattern.cs" />
+    <Compile Include="IDataTraining.cs" />
     <Compile Include="INeuralNetworkPattern.cs" />
     <Compile Include="NeuralNetworkPatternBase.cs" />
     <Compile Include="NeuronNetwork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadWriteObjectFile.cs" />
     <Compile Include="Utilities\Point.cs" />
     <Compile Include="Utilities\Vector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Apps.engine.data\Apps.engine.data.csproj">
+      <Project>{278bf53a-da03-47b8-b981-7cd62ac425d2}</Project>
+      <Name>Apps.engine.data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

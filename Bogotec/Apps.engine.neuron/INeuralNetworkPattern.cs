@@ -14,6 +14,8 @@ namespace Apps.engine.neuron
 
         void processData();
 
+        void LoadTrainingData();
+
         double[][] getInputDataProcessed();
 
         double[][] getOutputDataProcessed();
