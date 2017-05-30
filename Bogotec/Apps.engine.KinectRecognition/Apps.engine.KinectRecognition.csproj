@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataTrainingResolver.cs" />
+    <Compile Include="DataTrainingType.cs" />
     <Compile Include="PatternResolver.cs" />
     <Compile Include="PatternType.cs" />
     <Compile Include="PostureRecognition.cs" />
@@ -55,6 +57,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Apps.engine.data\Apps.engine.data.csproj">
+      <Project>{278bf53a-da03-47b8-b981-7cd62ac425d2}</Project>
+      <Name>Apps.engine.data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Apps.engine.neuron\Apps.engine.neuron.csproj">
       <Project>{3df2a809-98b3-446c-87e3-ae53005e4f1b}</Project>
       <Name>Apps.engine.neuron</Name>

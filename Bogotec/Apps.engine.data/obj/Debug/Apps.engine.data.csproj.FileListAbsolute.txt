@@ -1,0 +1,8 @@
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\obj\Debug\Apps.engine.data.csprojResolveAssemblyReference.cache
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\bin\Debug\Apps.engine.data.dll.config
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\bin\Debug\Apps.engine.data.dll
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\bin\Debug\Apps.engine.data.pdb
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\bin\Debug\Microsoft.Kinect.dll
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\bin\Debug\Microsoft.Kinect.xml
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\obj\Debug\Apps.engine.data.dll
+F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\obj\Debug\Apps.engine.data.pdb

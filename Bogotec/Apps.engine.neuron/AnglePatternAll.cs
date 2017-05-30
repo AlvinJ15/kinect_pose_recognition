@@ -21,9 +21,9 @@ namespace Apps.engine.neuron
                 {
                     for (int h = j + 1; h < 20; h++)
                     {
-                        var A = new Point(skeleton.Joints[a[i]].Position.X, skeleton.Joints[a[i]].Position.Y, skeleton.Joints[a[i]].Position.Z);
-                        var B = new Point(skeleton.Joints[a[j]].Position.X, skeleton.Joints[a[j]].Position.Y, skeleton.Joints[a[j]].Position.Z);
-                        var C = new Point(skeleton.Joints[a[h]].Position.X, skeleton.Joints[a[h]].Position.Y, skeleton.Joints[a[h]].Position.Z);
+                        var A = new Point(skeleton.Joints[_joinTypes[i]].Position.X, skeleton.Joints[_joinTypes[i]].Position.Y, skeleton.Joints[_joinTypes[i]].Position.Z);
+                        var B = new Point(skeleton.Joints[_joinTypes[j]].Position.X, skeleton.Joints[_joinTypes[j]].Position.Y, skeleton.Joints[_joinTypes[j]].Position.Z);
+                        var C = new Point(skeleton.Joints[_joinTypes[h]].Position.X, skeleton.Joints[_joinTypes[h]].Position.Y, skeleton.Joints[_joinTypes[h]].Position.Z);
                         lista.Add(Point.GetAngle(A, B, C)/(Math.PI));
                     }
                 }

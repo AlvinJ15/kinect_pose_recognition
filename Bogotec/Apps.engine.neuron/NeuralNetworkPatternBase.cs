@@ -1,4 +1,5 @@
-﻿using Microsoft.Kinect;
+﻿using Apps.engine.data;
+using Microsoft.Kinect;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,9 +18,11 @@ namespace Apps.engine.neuron
 
         protected Dictionary<OutputDataType, long> _outputDataMap;
 
-        protected Dictionary<Foo, OutputDataType> _outputPredictMap;
+        protected Dictionary<OutputKeymap, OutputDataType> _outputPredictMap;
 
-        protected List<JointType> a;
+        protected IDataTraining<InputDataType, OutputDataType> _dataTrainingResolver;
+
+        protected List<JointType> _joinTypes;
 
         public NeuralNetworkPatternBase()
         {
@@ -27,11 +30,11 @@ namespace Apps.engine.neuron
             _inputRecords = new List<InputDataType>();
             _outputRecords = new List<OutputDataType>();
             _outputDataMap = new Dictionary<OutputDataType, long>();
-            _outputPredictMap = new Dictionary<Foo, OutputDataType>();
-            a = new List<JointType>();
+            _outputPredictMap = new Dictionary<OutputKeymap, OutputDataType>();
+            _joinTypes = new List<JointType>();
             foreach (JointType foo in Enum.GetValues(typeof(JointType)))
             {
-                a.Add(foo);
+                _joinTypes.Add(foo);
             }
         }
         public void enterTrainingRecord(InputDataType inputRecord, OutputDataType outputRecord)
@@ -83,7 +86,7 @@ namespace Apps.engine.neuron
                 {
                     outputArr[j] = (double)((val & (1 << j))==0?0:1);
                 }
-                _outputPredictMap.Add(new Foo(outputArr), a.Key);
+                _outputPredictMap.Add(new OutputKeymap(outputArr), a.Key);
             }
             return outputResult;
         }
@@ -97,7 +100,7 @@ namespace Apps.engine.neuron
 
         public OutputDataType processOutputDataRecord(double[] outputRecord)
         {
-            var key = new Foo(outputRecord);
+            var key = new OutputKeymap(outputRecord);
             if (_outputPredictMap.ContainsKey(key))
             {
                 return _outputPredictMap[key];
@@ -105,10 +108,25 @@ namespace Apps.engine.neuron
             else
                 return default(OutputDataType);
         }
-        public class Foo : IEquatable<Foo>
+
+        public void LoadTrainingData()
+        {
+            if(_dataTrainingResolver != null){
+                List<InputDataType> inputData = new List<InputDataType>();
+                List<OutputDataType> outputData = new List<OutputDataType>();
+                _dataTrainingResolver.LoadData(ref inputData, ref outputData);
+
+                for(int i = 0; i < inputData.Count; i++)
+                {
+                    enterTrainingRecord(inputData[i], outputData[i]);
+                }
+            }
+        }
+
+        public class OutputKeymap : IEquatable<OutputKeymap>
         {
             public double[] output { get; set; }
-            public Foo(double[] outputRecord)
+            public OutputKeymap(double[] outputRecord)
             {
                 output = outputRecord;
             }
@@ -118,7 +136,7 @@ namespace Apps.engine.neuron
             }
             public override bool Equals(object obj)
             {
-                var x =(obj as Foo);
+                var x =(obj as OutputKeymap);
                 for(int i =0;i< this.output.Length; i++)
                 {
                     if (this.output[i] != x.output[i])
@@ -126,7 +144,7 @@ namespace Apps.engine.neuron
                 }
                 return true;
             }
-            public bool Equals(Foo obj)
+            public bool Equals(OutputKeymap obj)
             {
                 for (int i = 0; i < this.output.Length; i++)
                 {
@@ -134,6 +152,19 @@ namespace Apps.engine.neuron
                         return false;
                 }
                 return true;
+            }
+        }
+
+        public IDataTraining<InputDataType, OutputDataType> DataTrainingResolver
+        {
+            get
+            {
+                return _dataTrainingResolver;
+            }
+            set
+            {
+                _dataTrainingResolver = value;
+                LoadTrainingData();
             }
         }
     }

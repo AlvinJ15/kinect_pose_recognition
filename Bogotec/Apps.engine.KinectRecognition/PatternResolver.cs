@@ -11,17 +11,24 @@ namespace Apps.engine.KinectRecognition
     public class PatternResolver<InputDataType, OutputDataType>
         where   InputDataType: Skeleton
     {
-        public static INeuralNetworkPattern<InputDataType, OutputDataType> ResolvePattern(PatternType patternType)
+        public static INeuralNetworkPattern<InputDataType, OutputDataType> ResolvePattern(PatternType patternType, DataTrainingType dataTrainigType)
         {
+            var dataTrainingT = DataTrainingResolver<InputDataType, OutputDataType>.ResolveDataTraining(dataTrainigType);
+            NeuralNetworkPatternBase<InputDataType, OutputDataType> neuralNetworkPattern;
             switch (patternType)
             {
                 case PatternType.AnglePatternAll:
-                    return new AnglePatternAll<InputDataType, OutputDataType>();
+                    neuralNetworkPattern = new AnglePatternAll<InputDataType, OutputDataType>();
+                    break;
                 case PatternType.AnglePatternElbowKnee:
-                    return new AnglePatternElbowKnee<InputDataType, OutputDataType>();
+                    neuralNetworkPattern=  new AnglePatternElbowKnee<InputDataType, OutputDataType>();
+                    break;
                 default:
                     throw new ArgumentException("Not Pattern Found");
             }
+            neuralNetworkPattern.DataTrainingResolver = dataTrainingT;
+
+            return neuralNetworkPattern;
         }
     }
 }

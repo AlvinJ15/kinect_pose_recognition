@@ -96,11 +96,11 @@ namespace Apps.engine.neuron
             double[] temp = new double[output.Length];
             for (int i = 0; i < output.Length; i++)
             {
-                if (output[i] >= 0.75)
+                if (output[i] >= 0.65)
                 {
                     temp[i] = 1.0;
                 }
-                else if (output[i] <= 0.25)
+                else if (output[i] <= 0.35)
                 {
                     temp[i] = 0.0;
                 }
