@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.Kinect;
 namespace Apps.engine.neuron
 {
+    [Serializable()]
     public abstract class AnglePatternBase<InputDataType, OutputDataType> : NeuralNetworkPatternBase<InputDataType, OutputDataType>
        where InputDataType:Skeleton
     {

@@ -20,7 +20,7 @@ namespace Bogotec
 
             PostureRecognition<Skeleton, string> postureRecognition = new PostureRecognition<Skeleton, string>(PatternType.AnglePatternElbowKnee, DataTrainingType.DataTrainingFile, 100000);
 
-            FileStream fs = new FileStream("Test.txt", FileMode.Create);
+            FileStream fs = new FileStream("Test2.txt", FileMode.Create);
             // First, save the standard output.
             TextWriter tmp = Console.Out;
             StreamWriter sw = new StreamWriter(fs);
@@ -28,26 +28,27 @@ namespace Bogotec
             Console.WriteLine("ITERACION : " + postureRecognition.training() + "-------------------------------------------------------\n");
             Console.WriteLine("VIDEO1 " + "-------------------------------------------------------");
 
-            var lista = FromByteArray<List<Skeleton>>(File.ReadAllBytes("TRAINING_DATA/video"));
+            File.WriteAllBytes("save.dat",ToByteArray(postureRecognition));
+            var lista = FromByteArray<List<Skeleton>>(File.ReadAllBytes("TRAINING_DATA2/video"));
             foreach (Skeleton skel in lista)
             {
                 var x = postureRecognition.Predict(skel);
                 if (x != null && x.Length > 0)
                     Console.WriteLine(x);
             }
-            Console.WriteLine("VIDEO2 " + "-------------------------------------------------------");
 
-            lista = FromByteArray<List<Skeleton>>(File.ReadAllBytes("TRAINING_DATA/video2"));
-            foreach (Skeleton skel in lista)
-            {
-                var x = postureRecognition.Predict(skel);
-                if (x != null && x.Length > 0)
-                    Console.WriteLine(x);
-                else
-                {
-                    Console.WriteLine("NO RECONOCIDO");
-                }
-            }
+            //Console.WriteLine("VIDEO2 " + "-------------------------------------------------------");
+            //lista = FromByteArray<List<Skeleton>>(File.ReadAllBytes("TRAINING_DATA2/video2"));
+            //foreach (Skeleton skel in lista)
+            //{
+            //    var x = postureRecognition.Predict(skel);
+            //    if (x != null && x.Length > 0)
+            //        Console.WriteLine(x);
+            //    else
+            //    {
+            //        Console.WriteLine("NO RECONOCIDO");
+            //    }
+            //}
             Console.SetOut(tmp);
             sw.Close();
         }
@@ -68,6 +69,17 @@ namespace Bogotec
             {
                 object obj = bf.Deserialize(ms);
                 return (T)obj;
+            }
+        }
+        public static byte[] ToByteArray<T>(T obj)
+        {
+            if (obj == null)
+                return null;
+            BinaryFormatter bf = new BinaryFormatter();
+            using (MemoryStream ms = new MemoryStream())
+            {
+                bf.Serialize(ms, obj);
+                return ms.ToArray();
             }
         }
     }

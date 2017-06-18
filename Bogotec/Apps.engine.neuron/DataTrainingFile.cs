@@ -10,13 +10,14 @@ using System.Threading.Tasks;
 
 namespace Apps.engine.data
 {
+    [Serializable()]
     public class DataTrainingFile<InputDataType, OutputDataType> : IDataTraining<InputDataType, OutputDataType>
         
     {
         public void LoadData(ref List<InputDataType> inputData, ref List<OutputDataType> outputData)
         {
-            String folderPath = "TRAINING_DATA";
-            foreach (string file in Directory.EnumerateFiles(folderPath, "*.td" + ""))
+            String folderPath = "TRAINING_DATA2";
+            foreach (string file in Directory.EnumerateFiles(folderPath, "*.TD"))
             {
                 var readFile = File.ReadAllBytes(file);
                 var skeletonList = ReadWriteObjectFile.FromByteArray<List<Skeleton>>(readFile);

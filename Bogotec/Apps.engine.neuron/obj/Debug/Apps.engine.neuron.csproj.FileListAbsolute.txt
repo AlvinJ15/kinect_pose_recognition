@@ -42,3 +42,28 @@ F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\Microsoft.
 F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\Apps.engine.data.dll
 F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\Apps.engine.data.pdb
 F:\SEMESTRE9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\Apps.engine.data.dll.config
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\Apps.engine.neuron.dll.config
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\Apps.engine.neuron.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\Apps.engine.neuron.pdb
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.Controls.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.Genetic.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.Imaging.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.Math.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.Neuro.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.Video.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\Apps.engine.data.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\Microsoft.Kinect.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\Apps.engine.data.pdb
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\Apps.engine.data.dll.config
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.xml
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.Controls.xml
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.Genetic.xml
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.Imaging.xml
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.Math.xml
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.Neuro.xml
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.Video.xml
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\Microsoft.Kinect.xml
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\obj\Debug\Apps.engine.neuron.csprojResolveAssemblyReference.cache
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\obj\Debug\Apps.engine.neuron.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\obj\Debug\Apps.engine.neuron.pdb
