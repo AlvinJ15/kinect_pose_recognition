@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Apps.engine.neuron
 {
+    [Serializable()]
     public class AnglePatternElbowKnee<InputDataType, OutputDataType> : AnglePatternBase<InputDataType, OutputDataType>
             where InputDataType : Skeleton
     {
@@ -22,6 +23,14 @@ namespace Apps.engine.neuron
             lista.Add(calculateAngle(skeleton, JointType.HipLeft, JointType.KneeLeft, JointType.AnkleLeft));
             lista.Add(calculateAngle(skeleton, JointType.ShoulderCenter, JointType.ShoulderRight, JointType.ElbowRight));
             lista.Add(calculateAngle(skeleton, JointType.ShoulderCenter, JointType.ShoulderLeft, JointType.ElbowLeft));
+
+            lista.Add(calculateAngle(skeleton, JointType.ShoulderCenter, JointType.ShoulderRight, JointType.WristRight));
+            lista.Add(calculateAngle(skeleton, JointType.ShoulderCenter, JointType.ShoulderLeft, JointType.WristLeft));
+
+            lista.Add(calculateAngle(skeleton, JointType.ShoulderCenter, JointType.HipCenter, JointType.AnkleLeft));
+            lista.Add(calculateAngle(skeleton, JointType.ShoulderCenter, JointType.HipCenter, JointType.AnkleRight));
+
+
             return lista;
         }
 

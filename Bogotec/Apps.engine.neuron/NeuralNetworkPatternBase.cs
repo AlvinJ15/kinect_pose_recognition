@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Apps.engine.neuron
 {
+    [Serializable()]
     public abstract class NeuralNetworkPatternBase<InputDataType, OutputDataType> : INeuralNetworkPattern<InputDataType, OutputDataType>
     {
         protected long _indexedMap;
@@ -122,7 +123,7 @@ namespace Apps.engine.neuron
                 }
             }
         }
-
+        [Serializable()]
         public class OutputKeymap : IEquatable<OutputKeymap>
         {
             public double[] output { get; set; }

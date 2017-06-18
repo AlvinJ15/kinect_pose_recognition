@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Apps.engine.data
 {
-    class DataTypeResolver<T>
+    [Serializable()]
+    public class DataTypeResolver<T>
     {
         public static T CastObject(object readData) {
             if (readData is T) {

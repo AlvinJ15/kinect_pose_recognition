@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace Apps.engine.KinectRecognition
 {
+    [Serializable()]
     public class PostureRecognition<InputDataType, OutputDataType>
         where InputDataType: Skeleton
     {

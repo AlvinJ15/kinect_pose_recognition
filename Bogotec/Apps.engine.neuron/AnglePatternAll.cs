@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Apps.engine.neuron
 {
+    [Serializable()]
     public class AnglePatternAll<InputDataType, OutputDataType> : AnglePatternBase<InputDataType, OutputDataType>
         where InputDataType : Skeleton
     {

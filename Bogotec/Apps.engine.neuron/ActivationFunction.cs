@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Apps.engine.neuron
 {
+    [Serializable()]
     public class ActivationFunction
     {
         private IActivationFunction _activationFunction;
