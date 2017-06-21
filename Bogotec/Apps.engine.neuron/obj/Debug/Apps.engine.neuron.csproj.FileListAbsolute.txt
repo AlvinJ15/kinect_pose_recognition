@@ -64,9 +64,6 @@ F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.Ma
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.Neuro.xml
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\AForge.Video.xml
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\bin\Debug\Microsoft.Kinect.xml
-F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\obj\Debug\Apps.engine.neuron.csprojResolveAssemblyReference.cache
-F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\obj\Debug\Apps.engine.neuron.dll
-F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\obj\Debug\Apps.engine.neuron.pdb
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.neuron\bin\Debug\Apps.engine.neuron.dll.config
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.neuron\bin\Debug\Apps.engine.neuron.dll
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.neuron\bin\Debug\Apps.engine.neuron.pdb
@@ -92,3 +89,9 @@ C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.neuron\bin
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.neuron\obj\Debug\Apps.engine.neuron.csprojResolveAssemblyReference.cache
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.neuron\obj\Debug\Apps.engine.neuron.dll
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.neuron\obj\Debug\Apps.engine.neuron.pdb
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\Apps.engine.neuron.dll.config
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\Apps.engine.neuron.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\Apps.engine.neuron.pdb
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\obj\Debug\Apps.engine.neuron.csprojResolveAssemblyReference.cache
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\obj\Debug\Apps.engine.neuron.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\obj\Debug\Apps.engine.neuron.pdb

@@ -88,3 +88,6 @@ C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\Apps
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\obj\Debug\Bogotec.csprojResolveAssemblyReference.cache
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\obj\Debug\Bogotec.exe
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\obj\Debug\Bogotec.pdb
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\Bogotec.exe.config
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\Bogotec.exe
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\Bogotec.pdb

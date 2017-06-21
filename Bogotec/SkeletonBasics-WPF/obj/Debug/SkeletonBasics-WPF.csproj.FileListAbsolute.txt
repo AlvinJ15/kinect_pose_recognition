@@ -69,3 +69,43 @@ C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\SkeletonBasics-WPF\bin
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\SkeletonBasics-WPF\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\SkeletonBasics-WPF\bin\Debug\System.Web.WebPages.xml
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\SkeletonBasics-WPF\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\ApplicationInsights.config
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\csc.exe
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\csc.exe.config
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\csc.rsp
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\csi.exe
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\csi.rsp
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\Microsoft.CodeAnalysis.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\Microsoft.CSharp.Core.targets
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\System.AppContext.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\System.Collections.Immutable.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\System.Diagnostics.StackTrace.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\System.IO.FileSystem.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\System.Reflection.Metadata.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\vbc.exe
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\vbc.exe.config
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\vbc.rsp
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\VBCSCompiler.exe
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\roslyn\VBCSCompiler.exe.config
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\SkeletonBasics-WPF.exe.config
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\SkeletonBasics-WPF.exe
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\SkeletonBasics-WPF.pdb
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\SkeletonBasics-WPF.csprojResolveAssemblyReference.cache
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\MainWindow.baml
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\MainWindow.g.cs
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\App.g.cs
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\SkeletonBasics-WPF_MarkupCompile.cache
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\SkeletonBasics-WPF.g.resources
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\Microsoft.Samples.Kinect.SkeletonBasics.Properties.Resources.resources
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\SkeletonBasics-WPF.csproj.GenerateResource.Cache
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\SkeletonBasics-WPF.exe
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\SkeletonBasics-WPF.pdb

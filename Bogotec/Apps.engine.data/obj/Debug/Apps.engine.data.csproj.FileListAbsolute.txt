@@ -11,9 +11,6 @@ F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\bin\Debug\Apps.engine
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\bin\Debug\Apps.engine.data.pdb
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\bin\Debug\Microsoft.Kinect.dll
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\bin\Debug\Microsoft.Kinect.xml
-F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\obj\Debug\Apps.engine.data.csprojResolveAssemblyReference.cache
-F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\obj\Debug\Apps.engine.data.dll
-F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\obj\Debug\Apps.engine.data.pdb
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.data\bin\Debug\Apps.engine.data.dll.config
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.data\bin\Debug\Apps.engine.data.dll
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.data\bin\Debug\Apps.engine.data.pdb
@@ -21,3 +18,8 @@ C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.data\bin\D
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.data\bin\Debug\Microsoft.Kinect.xml
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.data\obj\Debug\Apps.engine.data.dll
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.data\obj\Debug\Apps.engine.data.pdb
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\Apps.engine.data.dll.config
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\Apps.engine.data.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\Apps.engine.data.pdb
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\obj\Debug\Apps.engine.data.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.data\obj\Debug\Apps.engine.data.pdb
