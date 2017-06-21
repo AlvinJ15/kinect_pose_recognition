@@ -6,14 +6,8 @@ using System.Web.Mvc;
 
 namespace WebApplication1.App_Data
 {
-    public class ResponseResult : Controller
+    public class ResponseResult 
     {
-        // GET: ResponseResult
-        public ActionResult Index()
-        {
-            return View();
-        }
-
         private object result;
 
         public object Result
