@@ -60,3 +60,31 @@ F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Bogotec\bin\Debug\Apps.engine.neuron.d
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Bogotec\obj\Debug\Bogotec.csprojResolveAssemblyReference.cache
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Bogotec\obj\Debug\Bogotec.exe
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Bogotec\obj\Debug\Bogotec.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\Bogotec.exe.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\Bogotec.exe
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\Bogotec.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\AForge.Controls.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\AForge.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\AForge.Genetic.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\AForge.Imaging.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\AForge.Math.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\AForge.Neuro.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\AForge.Video.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\Apps.engine.KinectRecognition.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\Microsoft.Kinect.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\Apps.engine.neuron.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\Apps.engine.KinectRecognition.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\Apps.engine.KinectRecognition.dll.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\AForge.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\AForge.Controls.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\AForge.Genetic.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\AForge.Imaging.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\AForge.Math.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\AForge.Neuro.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\AForge.Video.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\Microsoft.Kinect.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\Apps.engine.neuron.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\bin\Debug\Apps.engine.neuron.dll.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\obj\Debug\Bogotec.csprojResolveAssemblyReference.cache
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\obj\Debug\Bogotec.exe
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Bogotec\obj\Debug\Bogotec.pdb

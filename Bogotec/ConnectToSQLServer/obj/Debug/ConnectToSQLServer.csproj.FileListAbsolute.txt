@@ -1,0 +1,12 @@
+c:\users\jeysongonzales\documents\visual studio 2017\Projects\ConnectToSQLServer\ConnectToSQLServer\obj\Debug\ConnectToSQLServer.csprojResolveAssemblyReference.cache
+c:\users\jeysongonzales\documents\visual studio 2017\Projects\ConnectToSQLServer\ConnectToSQLServer\bin\Debug\ConnectToSQLServer.exe.config
+c:\users\jeysongonzales\documents\visual studio 2017\Projects\ConnectToSQLServer\ConnectToSQLServer\bin\Debug\ConnectToSQLServer.exe
+c:\users\jeysongonzales\documents\visual studio 2017\Projects\ConnectToSQLServer\ConnectToSQLServer\bin\Debug\ConnectToSQLServer.pdb
+c:\users\jeysongonzales\documents\visual studio 2017\Projects\ConnectToSQLServer\ConnectToSQLServer\obj\Debug\ConnectToSQLServer.exe
+c:\users\jeysongonzales\documents\visual studio 2017\Projects\ConnectToSQLServer\ConnectToSQLServer\obj\Debug\ConnectToSQLServer.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\ConnectToSQLServer\bin\Debug\ConnectToSQLServer.exe.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\ConnectToSQLServer\bin\Debug\ConnectToSQLServer.exe
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\ConnectToSQLServer\bin\Debug\ConnectToSQLServer.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\ConnectToSQLServer\obj\Debug\ConnectToSQLServer.csprojResolveAssemblyReference.cache
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\ConnectToSQLServer\obj\Debug\ConnectToSQLServer.exe
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\ConnectToSQLServer\obj\Debug\ConnectToSQLServer.pdb
