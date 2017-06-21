@@ -42,3 +42,25 @@ F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debu
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.KinectRecognition\obj\Debug\Apps.engine.KinectRecognition.csprojResolveAssemblyReference.cache
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.KinectRecognition\obj\Debug\Apps.engine.KinectRecognition.dll
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.KinectRecognition\obj\Debug\Apps.engine.KinectRecognition.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\Apps.engine.KinectRecognition.dll.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\Apps.engine.KinectRecognition.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\Apps.engine.KinectRecognition.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\Apps.engine.data.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\Apps.engine.neuron.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\Microsoft.Kinect.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\AForge.Neuro.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\AForge.Genetic.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\AForge.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\AForge.Math.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\Apps.engine.data.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\Apps.engine.data.dll.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\Apps.engine.neuron.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\Apps.engine.neuron.dll.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\Microsoft.Kinect.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\AForge.Neuro.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\AForge.Genetic.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\AForge.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\bin\Debug\AForge.Math.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\obj\Debug\Apps.engine.KinectRecognition.csprojResolveAssemblyReference.cache
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\obj\Debug\Apps.engine.KinectRecognition.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Apps.engine.KinectRecognition\obj\Debug\Apps.engine.KinectRecognition.pdb
