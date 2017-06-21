@@ -190,3 +190,19 @@ F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\WebApplication1\Bin\AForge.Neuro.xml
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\WebApplication1\Bin\AForge.Genetic.xml
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\WebApplication1\Bin\AForge.xml
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\WebApplication1\Bin\AForge.Math.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\Apps.engine.KinectRecognition.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\Microsoft.Kinect.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\Apps.engine.neuron.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\AForge.Neuro.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\AForge.Genetic.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\AForge.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\AForge.Math.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\Apps.engine.KinectRecognition.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\Apps.engine.KinectRecognition.dll.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\Microsoft.Kinect.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\Apps.engine.neuron.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\Apps.engine.neuron.dll.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\AForge.Neuro.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\AForge.Genetic.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\AForge.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\AForge.Math.xml

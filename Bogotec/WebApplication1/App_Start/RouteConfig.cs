@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading;
 using System.Web;
 using System.Web.Mvc;
@@ -16,9 +17,10 @@ namespace WebApplication1
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            ThreadStart kinectThread = NameOfMethodToCall;
-            Thread thread = new Thread(kinectThread);
-            thread.Start();
+            //ThreadStart kinectThread = NameOfMethodToCall;
+            //Thread thread = new Thread(kinectThread);
+            //thread.Start();
+            NameOfMethodToCall();
 
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
@@ -57,6 +59,7 @@ namespace WebApplication1
 
                 KinectController.postureRecognition = new PostureRecognition<Skeleton, string>(PatternType.AnglePatternElbowKnee, DataTrainingType.DataTrainingFile, 100000);
                 KinectController.postureRecognition.training();
+                //File.WriteAllBytes("save.dat", ToByteArray(KinectController.postureRecognition));
 
                 // Start the sensor!
                 try
@@ -68,7 +71,7 @@ namespace WebApplication1
                     sensor = null;
                 }
             }
-            while (true) ;
+            //while (true) ;
             // This will be executed on another thread
         }
         private static void SensorSkeletonFrameReady(object sender, SkeletonFrameReadyEventArgs e)
@@ -94,6 +97,17 @@ namespace WebApplication1
             }
 
             // prevent drawing outside of our render area
+        }
+        public static byte[] ToByteArray<T>(T obj)
+        {
+            if (obj == null)
+                return null;
+            BinaryFormatter bf = new BinaryFormatter();
+            using (MemoryStream ms = new MemoryStream())
+            {
+                bf.Serialize(ms, obj);
+                return ms.ToArray();
+            }
         }
     }
 

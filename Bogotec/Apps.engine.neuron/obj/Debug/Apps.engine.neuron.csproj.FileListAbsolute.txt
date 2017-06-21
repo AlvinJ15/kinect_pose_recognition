@@ -95,3 +95,6 @@ F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\Apps.engine.neuron.pdb
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\obj\Debug\Apps.engine.neuron.csprojResolveAssemblyReference.cache
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\obj\Debug\Apps.engine.neuron.dll
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.neuron\obj\Debug\Apps.engine.neuron.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\Apps.engine.neuron.dll.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\Apps.engine.neuron.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\Apps.engine.neuron.pdb

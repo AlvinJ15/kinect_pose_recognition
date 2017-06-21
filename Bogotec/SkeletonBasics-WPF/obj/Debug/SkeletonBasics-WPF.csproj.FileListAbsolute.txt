@@ -109,3 +109,7 @@ F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\Microsoft
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\SkeletonBasics-WPF.csproj.GenerateResource.Cache
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\SkeletonBasics-WPF.exe
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\SkeletonBasics-WPF.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\ApplicationInsights.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\SkeletonBasics-WPF.exe.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\SkeletonBasics-WPF.exe
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\SkeletonBasics-WPF.pdb

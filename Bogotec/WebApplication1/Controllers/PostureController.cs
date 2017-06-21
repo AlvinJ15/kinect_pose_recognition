@@ -13,7 +13,7 @@ namespace WebApplication1.Controllers
     public class PostureController : ApiController
     {
         // GET api/posture/5
-        [Route("validate/{id}")]
+        [Route("validate/{ejercicio}")]
         public string Get(string ejercicio)
         {
             int numberFrames = 0;
