@@ -28,6 +28,7 @@ namespace ConnectToSQLServer
             }
 
             DBInstance.closeConnection();
+            Console.Read();
             
             /*
             using (SqlConnection con = new SqlConnection())
