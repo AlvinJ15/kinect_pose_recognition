@@ -42,7 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fithomedb.cs" />
+    <Compile Include="DBInstance.cs" />
+    <Compile Include="DbServices.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
