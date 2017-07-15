@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConnectToSQLServer
 {
-    class DbServices
+    public class DbServices
     {
         public static void AddTrainingRed(String name, String code, String type)
         {
@@ -125,7 +125,7 @@ namespace ConnectToSQLServer
 
         public static void AddFramesToExercise(int id, string[] data)
         {
-            SqlConnection con = DBInstance.Instance;            
+            SqlConnection con = DBInstance.Instance;
             foreach (var frame in data)
             {
                 SqlCommand com = new SqlCommand("pa_set_frame", con);
@@ -133,7 +133,7 @@ namespace ConnectToSQLServer
                 com.Parameters.Add(new SqlParameter("@idexercise", id));
                 com.Parameters.Add(new SqlParameter("@data", frame));
                 com.ExecuteNonQuery();
-            }            
+            }
         }
 
         public static List<String> GetFramesFromExercise(int id)
