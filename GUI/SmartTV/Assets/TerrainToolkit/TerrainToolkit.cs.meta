@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 1249e046f9dc37544ad4e09363a4a2ab
+timeCreated: 1486089331
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - guiSkin: {fileID: 11400000, guid: 8f3a757c68b08884faff15225baf3bdc, type: 2}
+  - createIcon: {fileID: 2800000, guid: 667c1eb8399af2b49882de5998ca313f, type: 3}
+  - erodeIcon: {fileID: 2800000, guid: 92e8f804c4e7b8342b9e55584cb65933, type: 3}
+  - textureIcon: {fileID: 2800000, guid: dfa6e5047d1eecc48870195c5f9700c7, type: 3}
+  - mooreIcon: {fileID: 2800000, guid: 7831b51435e8c30428bfd68b666283e7, type: 3}
+  - vonNeumannIcon: {fileID: 2800000, guid: e577c1da2f9f1e44ca5c06c1af6937a8, type: 3}
+  - mountainsIcon: {fileID: 2800000, guid: 3668cb0d73c271d42ac248aa096d92b5, type: 3}
+  - hillsIcon: {fileID: 2800000, guid: b7b16784c61357c47b1ab7cfac32d6ee, type: 3}
+  - plateausIcon: {fileID: 2800000, guid: 3f24f6a369df5664d986626e92f5ff9c, type: 3}
+  - defaultTexture: {fileID: 2800000, guid: 4e95610b11bfedc4fbbf06182485bece, type: 3}
+  - tempTexture: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

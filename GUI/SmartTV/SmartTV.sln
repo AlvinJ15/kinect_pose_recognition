@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{A9777886-55AB-EB42-5AED-10FAF19D16B2}") = "SmartTV", "Assembly-CSharp.csproj", "{65A7D841-84A9-11F2-35A1-9EF79CCBF423}"
+EndProject
+Project("{A9777886-55AB-EB42-5AED-10FAF19D16B2}") = "SmartTV", "Assembly-CSharp-Editor.csproj", "{E47D6DA0-26DF-A29C-1228-4EE6A251B7D8}"
+EndProject
+Project("{A9777886-55AB-EB42-5AED-10FAF19D16B2}") = "SmartTV", "Assembly-UnityScript.unityproj", "{79093F57-E208-14E3-FF65-E993DCEAE7BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65A7D841-84A9-11F2-35A1-9EF79CCBF423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A7D841-84A9-11F2-35A1-9EF79CCBF423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A7D841-84A9-11F2-35A1-9EF79CCBF423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A7D841-84A9-11F2-35A1-9EF79CCBF423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47D6DA0-26DF-A29C-1228-4EE6A251B7D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47D6DA0-26DF-A29C-1228-4EE6A251B7D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47D6DA0-26DF-A29C-1228-4EE6A251B7D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47D6DA0-26DF-A29C-1228-4EE6A251B7D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79093F57-E208-14E3-FF65-E993DCEAE7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79093F57-E208-14E3-FF65-E993DCEAE7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79093F57-E208-14E3-FF65-E993DCEAE7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79093F57-E208-14E3-FF65-E993DCEAE7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

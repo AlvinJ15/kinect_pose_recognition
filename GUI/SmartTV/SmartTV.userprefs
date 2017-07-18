@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Animation\c#Animator\AnimatorController.cs">
+    <Files>
+      <File FileName="Assets\menu\Botones.js" Line="4" Column="41" />
+      <File FileName="Assets\Base de Datos\CargarImagenes.cs" Line="27" Column="70" />
+      <File FileName="Assets\timer\script\Timer.cs" Line="28" Column="7" />
+      <File FileName="Assets\Animation\c#Animator\AnimatorController.cs" Line="65" Column="3" />
+      <File FileName="Assets\menu\RecursosBarraCarga\BarraProgreso.cs" Line="23" Column="41" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
