@@ -274,6 +274,14 @@
       <Project>{9C914E5E-414B-4C13-8D71-624B915CA39F}</Project>
       <Name>Apps.engine.KinectRecognition</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Apps.engine.neuron\Apps.engine.neuron.csproj">
+      <Project>{3DF2A809-98B3-446C-87E3-AE53005E4F1B}</Project>
+      <Name>Apps.engine.neuron</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConnectToSQLServer\ConnectToSQLServer.csproj">
+      <Project>{EEBC5F52-1E64-4784-B555-75563CDC442D}</Project>
+      <Name>ConnectToSQLServer</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

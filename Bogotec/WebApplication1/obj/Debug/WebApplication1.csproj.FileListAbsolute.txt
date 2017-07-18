@@ -190,3 +190,6 @@ F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\WebApplication1\Bin\AForge.Neuro.xml
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\WebApplication1\Bin\AForge.Genetic.xml
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\WebApplication1\Bin\AForge.xml
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\WebApplication1\Bin\AForge.Math.xml
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\WebApplication1\Bin\ConnectToSQLServer.exe
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\WebApplication1\Bin\ConnectToSQLServer.pdb
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\WebApplication1\Bin\ConnectToSQLServer.exe.config
