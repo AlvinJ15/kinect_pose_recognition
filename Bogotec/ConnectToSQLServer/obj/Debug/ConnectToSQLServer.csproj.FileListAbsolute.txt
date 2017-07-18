@@ -16,3 +16,6 @@ F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\ConnectToSQLServer.pdb
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\ConnectToSQLServer\obj\Debug\ConnectToSQLServer.csprojResolveAssemblyReference.cache
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\ConnectToSQLServer\obj\Debug\ConnectToSQLServer.exe
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\ConnectToSQLServer\obj\Debug\ConnectToSQLServer.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\ConnectToSQLServer.exe.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\ConnectToSQLServer.exe
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\ConnectToSQLServer.pdb
