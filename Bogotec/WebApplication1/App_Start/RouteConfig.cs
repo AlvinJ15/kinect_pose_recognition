@@ -1,4 +1,6 @@
 ﻿using Apps.engine.KinectRecognition;
+using Apps.engine.neuron.Utilities;
+using ConnectToSQLServer;
 using Microsoft.Kinect;
 using System;
 using System.Collections.Generic;
@@ -60,6 +62,7 @@ namespace WebApplication1
                 KinectController.postureRecognition = new PostureRecognition<Skeleton, string>(PatternType.AnglePatternElbowKnee, DataTrainingType.DataTrainingFile, 100000);
                 KinectController.postureRecognition.training();
                 //File.WriteAllBytes("save.dat", ToByteArray(KinectController.postureRecognition));
+                //KinectController.postureRecognition = ReadWriteObjectFile.FromByteArray<PostureRecognition<Skeleton, string>>(Convert.FromBase64String(DbServices.GetTrainingRed("first", "static")));
 
                 // Start the sensor!
                 try

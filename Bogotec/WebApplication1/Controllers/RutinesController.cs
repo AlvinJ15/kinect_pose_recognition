@@ -30,7 +30,7 @@ namespace WebApplication1.Controllers
             while (s.Elapsed < TimeSpan.FromSeconds(1))
             {
                 numberFrames++;
-                if (id.Equals(KinectController.postureRecognition.Predict(KinectController.CurrentSkeleton)))
+                if (id.Equals(KinectController.postureRecognition.Predict(KinectController.CurrentSkeleton), StringComparison.CurrentCultureIgnoreCase))
                 {
                     correctFrame++;
                 }

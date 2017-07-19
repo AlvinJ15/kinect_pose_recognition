@@ -13,6 +13,9 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
     using System.Runtime.Serialization.Formatters.Binary;
     using System.Collections.Generic;
     using Apps.engine.KinectRecognition;
+    using ConnectToSQLServer;
+    using Point = System.Windows.Point;
+    using Apps.engine.neuron.Utilities;
 
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -180,6 +183,9 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
 
                 postureRecognition = new PostureRecognition<Skeleton, string>(PatternType.AnglePatternElbowKnee, DataTrainingType.DataTrainingFile, 100000);
                 postureRecognition.training();
+
+
+                DbServices.AddTrainingRed("first", System.Convert.ToBase64String(ReadWriteObjectFile.ObjectToByteArray(postureRecognition)), "static");
 
                 // Start the sensor!
                 try

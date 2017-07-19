@@ -206,3 +206,6 @@ C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\AF
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\AForge.Genetic.xml
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\AForge.xml
 C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\AForge.Math.xml
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\ConnectToSQLServer.exe
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\ConnectToSQLServer.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\WebApplication1\Bin\ConnectToSQLServer.exe.config
