@@ -60,7 +60,7 @@ namespace WebApplication1
                 //KinectController.postureRecognition = new PostureRecognition<Skeleton, string>(PatternType.AnglePatternElbowKnee, DataTrainingType.DataTrainingFile, 100000);
                 //KinectController.postureRecognition.training();
 
-                KinectController.postureRecognition = ReadWriteObjectFile.FromByteArray< PostureRecognition<Skeleton, string> >( Convert.FromBase64String(DbServices.GetTrainingRed("first", "static")));
+                KinectController.postureRecognition = ReadWriteObjectFile.FromByteArray< PostureRecognition<Skeleton, string> >( Convert.FromBase64String(DbServices.GetTrainingRed("four", "posture")));
 
                 // Start the sensor!
                 try

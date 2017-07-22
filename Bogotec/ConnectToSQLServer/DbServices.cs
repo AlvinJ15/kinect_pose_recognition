@@ -29,6 +29,7 @@ namespace ConnectToSQLServer
             com.CommandType = System.Data.CommandType.StoredProcedure;
             com.Parameters.Add(new SqlParameter("@name", name));
             com.Parameters.Add(new SqlParameter("@type", type));
+            com.CommandTimeout = 120;
             com.ExecuteNonQuery();
 
             using (SqlDataReader rdr = com.ExecuteReader())

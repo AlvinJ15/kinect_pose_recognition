@@ -11,10 +11,7 @@ namespace Apps.engine.neuron
     [Serializable()]
     public class NeuronNetwork
     {
-
         ActivationNetwork network;
-
-        BackPropagationLearning teacher;
 
         private double[][] inputData;
 
@@ -55,7 +52,7 @@ namespace Apps.engine.neuron
             network = new ActivationNetwork(
                 activateFunction, inputData[0].Length, inputData[0].Length * 2, outputData[0].Length);
 
-            teacher = new BackPropagationLearning(network);
+            BackPropagationLearning teacher = new BackPropagationLearning(network);
 
             int iterationsCount = 0;
             bool flag = true;
@@ -97,11 +94,11 @@ namespace Apps.engine.neuron
             double[] temp = new double[output.Length];
             for (int i = 0; i < output.Length; i++)
             {
-                if (output[i] >= 0.60)
+                if (output[i] >= 0.90)
                 {
                     temp[i] = 1.0;
                 }
-                else if (output[i] <= 0.40)
+                else if (output[i] <= 0.10)
                 {
                     temp[i] = 0.0;
                 }

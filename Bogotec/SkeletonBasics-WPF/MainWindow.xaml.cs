@@ -184,8 +184,10 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                 postureRecognition = new PostureRecognition<Skeleton, string>(PatternType.AnglePatternElbowKnee, DataTrainingType.DataTrainingFile, 100000);
                 postureRecognition.training();
                 string code = Convert.ToBase64String(ReadWriteObjectFile.ObjectToByteArray(postureRecognition));
+                DbServices.AddTrainingRed("five", code, "posture");
 
-                DbServices.AddTrainingRed("first", code, "posture");
+                //postureRecognition = ReadWriteObjectFile.FromByteArray<PostureRecognition<Skeleton, string>>(Convert.FromBase64String(DbServices.GetTrainingRed("second", "posture")));
+
                 // Start the sensor!
                 try
                 {

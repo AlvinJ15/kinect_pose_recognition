@@ -18,7 +18,7 @@ namespace Bogotec
         {
 
 
-            PostureRecognition<Skeleton, string> postureRecognition = new PostureRecognition<Skeleton, string>(PatternType.AnglePatternElbowKnee, DataTrainingType.DataTrainingFile, 100000);
+            PostureRecognition<Skeleton, string> postureRecognition = new PostureRecognition<Skeleton, string>(PatternType.AnglePatternElbowKnee, DataTrainingType.DataTrainingFile, 1000000);
 
             FileStream fs = new FileStream("Test2.txt", FileMode.Create);
             // First, save the standard output.

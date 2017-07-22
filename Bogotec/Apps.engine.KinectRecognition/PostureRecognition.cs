@@ -11,7 +11,7 @@ namespace Apps.engine.KinectRecognition
     public class PostureRecognition<InputDataType, OutputDataType>
         where InputDataType: Skeleton
     {
-        private static NeuronNetwork network;
+        private NeuronNetwork network;
 
         private INeuralNetworkPattern<InputDataType, OutputDataType> networkPattern;
 
