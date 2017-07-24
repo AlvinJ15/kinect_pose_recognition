@@ -181,12 +181,12 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                 // Add an event handler to be called whenever there is new color frame data
                 this.sensor.SkeletonFrameReady += this.SensorSkeletonFrameReady;
 
-                postureRecognition = new PostureRecognition<Skeleton, string>(PatternType.AnglePatternElbowKnee, DataTrainingType.DataTrainingFile, 100000);
-                postureRecognition.training();
-                string code = Convert.ToBase64String(ReadWriteObjectFile.ObjectToByteArray(postureRecognition));
-                DbServices.AddTrainingRed("five", code, "posture");
+                //postureRecognition = new PostureRecognition<Skeleton, string>(PatternType.AnglePatternElbowKnee, DataTrainingType.DataTrainingFile, 100000);
+                //postureRecognition.training();
+                //string code = Convert.ToBase64String(ReadWriteObjectFile.ObjectToByteArray(postureRecognition));
+                //DbServices.AddTrainingRed("seven", code, "posture");
 
-                //postureRecognition = ReadWriteObjectFile.FromByteArray<PostureRecognition<Skeleton, string>>(Convert.FromBase64String(DbServices.GetTrainingRed("second", "posture")));
+                postureRecognition = ReadWriteObjectFile.FromByteArray<PostureRecognition<Skeleton, string>>(Convert.FromBase64String(DbServices.GetTrainingRed("seven", "posture")));
 
                 // Start the sensor!
                 try
@@ -321,13 +321,13 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
             // Left Arm
             this.DrawBone(skeleton, drawingContext, JointType.ShoulderLeft, JointType.ElbowLeft);
             //LeftHand.Text = skeleton.Joints[JointType.ShoulderLeft].Position.X.ToString();
-            Posi.Text = postureRecognition.Predict(skeleton);
+            Estado.Text = postureRecognition.Predict(skeleton);
             if (flag)
             {
                 lista.Add(skeleton);
-                
+
             }
-                this.DrawBone(skeleton, drawingContext, JointType.ElbowLeft, JointType.WristLeft);
+            this.DrawBone(skeleton, drawingContext, JointType.ElbowLeft, JointType.WristLeft);
             this.DrawBone(skeleton, drawingContext, JointType.WristLeft, JointType.HandLeft);
 
             // Right Arm
@@ -460,6 +460,11 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
         }
 
         private void Parte_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Estado_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
         {
 
         }

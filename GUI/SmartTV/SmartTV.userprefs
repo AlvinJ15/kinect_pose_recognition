@@ -5,7 +5,7 @@
       <File FileName="Assets\menu\Botones.js" Line="1" Column="1" />
       <File FileName="Assets\Base de Datos\CargarImagenes.cs" Line="1" Column="1" />
       <File FileName="Assets\timer\script\Timer.cs" Line="1" Column="1" />
-      <File FileName="Assets\Animation\c#Animator\AnimatorController.cs" Line="97" Column="32" />
+      <File FileName="Assets\Animation\c#Animator\AnimatorController.cs" Line="36" Column="30" />
       <File FileName="Assets\menu\RecursosBarraCarga\BarraProgreso.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

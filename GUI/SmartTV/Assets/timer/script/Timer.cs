@@ -13,7 +13,7 @@ public class Timer : MonoBehaviour
 
 	// Use this for initialization
 	void Start(){
-		childimagen = transform.FindChild ("Ejercicio").gameObject;
+		childimagen = transform.Find ("Ejercicio").gameObject;
 		cargarImagen ("hombroIzquierdo");
 		//fillImg = this.GetComponent<Image>();
 		StartCoroutine("LoseTime");

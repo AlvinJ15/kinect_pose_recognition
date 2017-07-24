@@ -13,30 +13,33 @@ namespace WebApplication1.Controllers
     public class PostureController : ApiController
     {
         // GET api/posture/5
-        [Route("validate/{id}")]
+        [Route("validar/{ejercicio}")]
         public string Get(string ejercicio)
         {
             int numberFrames = 0;
             int correctFrame = 0;
             Stopwatch s = new Stopwatch();
             s.Start();
-            while (s.Elapsed < TimeSpan.FromSeconds(1000))
+            while (s.Elapsed < TimeSpan.FromSeconds(10))
             {
                 numberFrames++;
-                if (KinectController.postureRecognition.Predict(KinectController.CurrentSkeleton).Equals(ejercicio))
+                var result = KinectController.postureRecognition.Predict(KinectController.CurrentSkeleton);
+                
+                if (ejercicio.Equals(result, StringComparison.OrdinalIgnoreCase))
                 {
                     correctFrame++;
                 }
             }
             s.Stop();
 
-            ResponseResult result = new ResponseResult();
+            //ResponseResult result = new ResponseResult();
 
-            result.Result = (correctFrame / (double)numberFrames) >= 0.5;
+            //result.Result = (correctFrame / (double)numberFrames) >= 0.5;
 
+            //return ((correctFrame / (double)numberFrames) >= 0.5)?"True":"False";
+            return (correctFrame>0) ? "True" : "False";
 
-
-            return result.ToJSON();
+            //return result.ToJSON();
         }
     }
 }

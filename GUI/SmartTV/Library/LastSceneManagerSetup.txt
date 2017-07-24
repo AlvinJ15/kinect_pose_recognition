@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/tizen Setting.unity
+- path: Assets/menu/menu.unity
   isLoaded: 1
   isActive: 1

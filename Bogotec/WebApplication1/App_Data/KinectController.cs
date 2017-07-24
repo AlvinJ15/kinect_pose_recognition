@@ -12,6 +12,8 @@ namespace WebApplication1.App_Data
     {
         public static PostureRecognition<Skeleton, string> postureRecognition;
 
+        public static KinectSensor sensor;
+
         public static Skeleton skel;
         // GET: Kinect
         public ActionResult Index()

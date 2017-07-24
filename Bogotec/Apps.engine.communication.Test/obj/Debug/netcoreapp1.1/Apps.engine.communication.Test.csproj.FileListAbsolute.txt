@@ -1,0 +1,9 @@
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.communication.Test\bin\Debug\netcoreapp1.1\Apps.engine.communication.Test.deps.json
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.communication.Test\bin\Debug\netcoreapp1.1\Apps.engine.communication.Test.runtimeconfig.json
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.communication.Test\bin\Debug\netcoreapp1.1\Apps.engine.communication.Test.runtimeconfig.dev.json
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.communication.Test\obj\Debug\netcoreapp1.1\Apps.engine.communication.Test.csprojResolveAssemblyReference.cache
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.communication.Test\obj\Debug\netcoreapp1.1\Apps.engine.communication.Test.AssemblyInfo.cs
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.communication.Test\bin\Debug\netcoreapp1.1\Apps.engine.communication.Test.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.communication.Test\bin\Debug\netcoreapp1.1\Apps.engine.communication.Test.pdb
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.communication.Test\obj\Debug\netcoreapp1.1\Apps.engine.communication.Test.dll
+F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.communication.Test\obj\Debug\netcoreapp1.1\Apps.engine.communication.Test.pdb

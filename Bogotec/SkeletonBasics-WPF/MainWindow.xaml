@@ -69,8 +69,8 @@
             </StatusBarItem>
         </StatusBar>
         <TextBox Name="Parte" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top" Width="120" TextChanged="Parte_TextChanged"/>
-        <TextBox Name="Estado" HorizontalAlignment="Left" Height="23" Margin="10,33,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Listo" VerticalAlignment="Top" Width="120"/>
-        <TextBox Name="Posi" HorizontalAlignment="Left" Height="23" Margin="10,56,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="Estado" HorizontalAlignment="Left" Height="41" Margin="10,33,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Listo" VerticalAlignment="Top" Width="575" TextChanged="Estado_TextChanged" FontSize="36" FontFamily="Arial Black"/>
+        <TextBox Name="Posi" HorizontalAlignment="Left" Height="23" Margin="10,125,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox Name="RightArm" HorizontalAlignment="Left" Height="23" Margin="10,79,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox Name="Other" HorizontalAlignment="Left" Height="23" Margin="10,102,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <Button Content="Play" HorizontalAlignment="Left" Margin="31,301,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Click="Button_Click"/>

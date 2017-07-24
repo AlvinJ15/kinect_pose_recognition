@@ -18,9 +18,7 @@ namespace WebApplication1
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            ThreadStart kinectThread = NameOfMethodToCall;
-            Thread thread = new Thread(kinectThread);
-            thread.Start();
+            NameOfMethodToCall();
 
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
@@ -30,49 +28,49 @@ namespace WebApplication1
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }
-        public static KinectSensor sensor;
+
         private static void NameOfMethodToCall()
         {
             foreach (var potentialSensor in KinectSensor.KinectSensors)
             {
                 if (potentialSensor.Status == KinectStatus.Connected)
                 {
-                    sensor = potentialSensor;
+                    KinectController.sensor = potentialSensor;
                     break;
                 }
             }
 
-            if (null != sensor)
+            if (null != KinectController.sensor)
             {
                 TransformSmoothParameters smoothingParam = new TransformSmoothParameters();
 
-                smoothingParam.Smoothing = 0.7f;
-                smoothingParam.Correction = 0.3f;
-                smoothingParam.Prediction = 1.0f;
-                smoothingParam.JitterRadius = 1.0f;
-                smoothingParam.MaxDeviationRadius = 1.0f;
-                // Turn on the skeleton stream to receive skeleton frames
-                sensor.SkeletonStream.Enable(smoothingParam);
+                //smoothingParam.Smoothing = 0.7f;
+                //smoothingParam.Correction = 0.3f;
+                //smoothingParam.Prediction = 1.0f;
+                //smoothingParam.JitterRadius = 1.0f;
+                //smoothingParam.MaxDeviationRadius = 1.0f;
+                //// Turn on the skeleton stream to receive skeleton frames
+                KinectController.sensor.SkeletonStream.Enable(smoothingParam);
 
                 // Add an event handler to be called whenever there is new color frame data
-                sensor.SkeletonFrameReady += SensorSkeletonFrameReady;
+                KinectController.sensor.SkeletonFrameReady += SensorSkeletonFrameReady;
 
                 //KinectController.postureRecognition = new PostureRecognition<Skeleton, string>(PatternType.AnglePatternElbowKnee, DataTrainingType.DataTrainingFile, 100000);
                 //KinectController.postureRecognition.training();
 
-                KinectController.postureRecognition = ReadWriteObjectFile.FromByteArray< PostureRecognition<Skeleton, string> >( Convert.FromBase64String(DbServices.GetTrainingRed("four", "posture")));
+                KinectController.postureRecognition = ReadWriteObjectFile.FromByteArray<PostureRecognition<Skeleton, string>>(Convert.FromBase64String(DbServices.GetTrainingRed("seven", "posture")));
 
                 // Start the sensor!
                 try
                 {
-                    sensor.Start();
+                    KinectController.sensor.Start();
                 }
                 catch (IOException)
                 {
-                    sensor = null;
+                    KinectController.sensor = null;
                 }
             }
-            while (true) ;
+            //while (true) ;
             // This will be executed on another thread
         }
         private static void SensorSkeletonFrameReady(object sender, SkeletonFrameReadyEventArgs e)
