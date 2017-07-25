@@ -67,3 +67,6 @@ F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Build\Debug\Apps.engine.KinectRecognit
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.KinectRecognition\obj\Debug\Apps.engine.KinectRecognition.csprojResolveAssemblyReference.cache
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.KinectRecognition\obj\Debug\Apps.engine.KinectRecognition.dll
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\Apps.engine.KinectRecognition\obj\Debug\Apps.engine.KinectRecognition.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\Apps.engine.KinectRecognition.dll.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\Apps.engine.KinectRecognition.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\Apps.engine.KinectRecognition.pdb

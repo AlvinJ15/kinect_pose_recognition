@@ -83,3 +83,33 @@ F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\Microsoft
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\SkeletonBasics-WPF.csproj.GenerateResource.Cache
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\SkeletonBasics-WPF.exe
 F:\SEMESTRE 9\PI\Proyecto\fithome\Bogotec\SkeletonBasics-WPF\obj\Debug\SkeletonBasics-WPF.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\ApplicationInsights.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\SkeletonBasics-WPF.exe.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\SkeletonBasics-WPF.exe
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\SkeletonBasics-WPF.pdb
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\csc.exe
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\csc.exe.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\csc.rsp
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\csi.exe
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\csi.rsp
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\System.AppContext.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\System.IO.FileSystem.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\vbc.exe
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\vbc.exe.config
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\vbc.rsp
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\VBCSCompiler.exe
+C:\Users\JeysonGonzales\Documents\Fithome\fithome\Bogotec\Build\Debug\roslyn\VBCSCompiler.exe.config
