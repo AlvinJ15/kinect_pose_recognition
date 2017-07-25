@@ -17,6 +17,12 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
     using Apps.engine.neuron.Utilities;
     using System;
     using Point = System.Windows.Point;
+    using System.Net.Sockets;
+    using System.Net;
+    using System.Text;
+    using System.Threading;
+    using System.Diagnostics;
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -188,6 +194,9 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
 
                 postureRecognition = ReadWriteObjectFile.FromByteArray<PostureRecognition<Skeleton, string>>(Convert.FromBase64String(DbServices.GetTrainingRed("seven", "posture")));
 
+
+                ExecuteThreadServiceAsync();
+                StartSocketListenner();
                 // Start the sensor!
                 try
                 {
@@ -222,6 +231,59 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
             {
                 this.statusBarText.Text = Properties.Resources.NoKinectReady;
             }
+        }
+
+        public string currentPosition = "";
+        private void StartSocketListenner()
+        {
+            sock.Bind(localEndpoint);
+            sock.Listen(5);
+            string data = "";
+            Thread myThread = new Thread(delegate ()
+            {
+                while (true)
+                {
+                    Socket confd = sock.Accept();
+
+                    byte[] dateReceived = new byte[128];
+                    int size = confd.Receive(dateReceived);
+                    string rutina = Encoding.ASCII.GetString(dateReceived).Replace("\0", string.Empty);
+                    int count = 0;
+                    int correct = 0;
+                    Stopwatch s = new Stopwatch();
+                    s.Start();
+                    while (s.Elapsed < TimeSpan.FromSeconds(1))
+                    {
+                        data = currentPosition;
+                        count++;
+                        if (rutina.Equals(data, StringComparison.OrdinalIgnoreCase))
+                        {
+                            correct++;
+                        }
+                    }
+                    s.Stop();
+                    Debug.WriteLine("Comparando:::  +" + data + "  -  " + rutina);
+                    string response = correct > 0 ? "True" : "False";
+                    confd.Send(Encoding.ASCII.GetBytes(response));
+                    Debug.WriteLine("Respuesta Enviada: " + response);
+                    //Console.WriteLine("Respuesta Enviada: " + data);
+                }
+            });
+            myThread.Start();
+
+        }
+        IPHostEntry iphostInfo ;
+        IPAddress ipAddress;
+        IPEndPoint localEndpoint ;
+        Socket sock;
+
+        private void ExecuteThreadServiceAsync()
+        {
+            iphostInfo = Dns.GetHostEntry(Dns.GetHostName());
+            ipAddress = iphostInfo.AddressList[0];
+            localEndpoint = new IPEndPoint(ipAddress, 8080);
+
+            sock = new Socket(ipAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
         }
 
         /// <summary>
@@ -322,6 +384,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
             this.DrawBone(skeleton, drawingContext, JointType.ShoulderLeft, JointType.ElbowLeft);
             //LeftHand.Text = skeleton.Joints[JointType.ShoulderLeft].Position.X.ToString();
             Estado.Text = postureRecognition.Predict(skeleton);
+            currentPosition = Estado.Text;
             if (flag)
             {
                 lista.Add(skeleton);

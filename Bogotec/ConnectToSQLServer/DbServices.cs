@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,35 +12,39 @@ namespace ConnectToSQLServer
     {
         public static void AddTrainingRed(String name, String code, String type)
         {
-            SqlConnection con = DBInstance.Instance;
-            SqlCommand com = new SqlCommand("pa_add_training_red", con);
-            com.CommandType = System.Data.CommandType.StoredProcedure;
-            com.Parameters.Add(new SqlParameter("@name", name));
-            com.Parameters.Add(new SqlParameter("@code", code));
-            com.Parameters.Add(new SqlParameter("@type", type));
-            com.ExecuteNonQuery();
+            //SqlConnection con = DBInstance.Instance;
+            //SqlCommand com = new SqlCommand("pa_add_training_red", con);
+            //com.CommandType = System.Data.CommandType.StoredProcedure;
+            //com.Parameters.Add(new SqlParameter("@name", name));
+            //com.Parameters.Add(new SqlParameter("@code", code));
+            //com.Parameters.Add(new SqlParameter("@type", type));
+            //com.ExecuteNonQuery();
+
+            File.WriteAllBytes(name, Convert.FromBase64String(code));
         }
 
 
         public static String GetTrainingRed(String name, String type)
         {
-            string res = "";
-            SqlConnection con = DBInstance.Instance;
-            SqlCommand com = new SqlCommand("pa_get_training_red", con);
-            com.CommandType = System.Data.CommandType.StoredProcedure;
-            com.Parameters.Add(new SqlParameter("@name", name));
-            com.Parameters.Add(new SqlParameter("@type", type));
-            com.CommandTimeout = 120;
-            com.ExecuteNonQuery();
+            //string res = "";
+            //SqlConnection con = DBInstance.Instance;
+            //SqlCommand com = new SqlCommand("pa_get_training_red", con);
+            //com.CommandType = System.Data.CommandType.StoredProcedure;
+            //com.Parameters.Add(new SqlParameter("@name", name));
+            //com.Parameters.Add(new SqlParameter("@type", type));
+            //com.CommandTimeout = 120;
+            //com.ExecuteNonQuery();
 
-            using (SqlDataReader rdr = com.ExecuteReader())
-            {
-                while (rdr.Read())
-                {
-                    res = (string)rdr["code"];
-                }
-            }
-            return res;
+            //using (SqlDataReader rdr = com.ExecuteReader())
+            //{
+            //    while (rdr.Read())
+            //    {
+            //        res = (string)rdr["code"];
+            //    }
+            //}
+            //return res;
+            return Convert.ToBase64String(File.ReadAllBytes(name));
+
         }
 
         public static List<object[]> GetAllRutines()

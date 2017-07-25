@@ -39,25 +39,24 @@ public class AnimatorController : MonoBehaviour {
 		temptimeLeft = timeLeft;
 		i = 0;
 		flagCourtine = true;
-    }
-
+	}
+	
 	// Update is called once per frame
 	void Update () {
 		countdownText.text = (temptimeLeft + " ");
 		timer.text = (temptime + " ");
 		anim.Play (rutina [i]);
-        if (temptime <= 0) {
-            render.GetComponent<Renderer>().material.color = Color.white;
-            //StopCoroutine ("verificar");
-            StopCoroutine("LoseTime");
-            timer.text = "PLAY";
-            StartCoroutine("LoseTime2");
+		if (temptime <= 0){
+			render.GetComponent<Renderer> ().material.color = Color.white;
+			//StopCoroutine ("verificar");
+			StopCoroutine("LoseTime");
+			timer.text = "PLAY";
+			StartCoroutine("LoseTime2");
 			temptime = time;
 			timer.enabled = false;
 			countdownText.enabled = true;
-
-        }
-        if (temptimeLeft <= 0) {
+		}
+		if (temptimeLeft <= 0) {
 			StopCoroutine ("LoseTime2");
 			StopCoroutine ("verificar");
 			render.GetComponent<Renderer> ().material.color = Color.white;
@@ -78,23 +77,28 @@ public class AnimatorController : MonoBehaviour {
 
 	}
 	/*IEnumerator verificar(){
-
-        servicio.enabled = true;
-
-		WWW getresult = new WWW ("http://localhost:54744/api/posture/validar/" + rutina [i]);
+		servicio.enabled = true;
+		WWW getresult = new WWW ("http://localhost/smartTv/GETPHP.php/?nombre="+t);
+			
+		//WWW getresult = new WWW ("http://localhost:54744/api/posture/validar/" + rutina [i]);
 		yield return getresult;
 		string data = getresult.text.Trim();
 		//string data = getresult.text;
 		servicio.text = data;
 
 		if (data.Contains ("True")) {
+			t++;
 			render.GetComponent<Renderer> ().material.color = Color.green;
 		} else {
 			render.GetComponent<Renderer> ().material.color = Color.red;
 			StopCoroutine ("LoseTime2");
+			//StopCoroutine ("verificar");
 			while(true){
-				getresult = new WWW ("http://localhost:54744/api/posture/validar/" + rutina [i]);
+				t++;
+				//WWW getresult = new WWW ("http://localhost:54744/api/posture/validar/" + rutina [i]);
+				getresult = new WWW ("http://localhost/smartTv/GETPHP.php/?nombre="+t);
 				yield return getresult;
+			
 				yield return new WaitForSeconds(1);
 				data = getresult.text.Trim ();
 				servicio.text = data;
@@ -150,7 +154,7 @@ public class AnimatorController : MonoBehaviour {
 				/**--------------------------------------------------------------------------------------------------**/
 
 
-				yield return new WaitForSeconds(1);
+				//yield return new WaitForSeconds(1);
 				data = getresult.Trim ();
 				servicio.text = data;
 				if (data.Contains ("True")) {
@@ -162,7 +166,7 @@ public class AnimatorController : MonoBehaviour {
 		}
 	}
 
-    IEnumerator LoseTime(){
+	IEnumerator LoseTime(){
 		while (true){
 			yield return new WaitForSeconds(1);
 			temptime--;
@@ -171,12 +175,8 @@ public class AnimatorController : MonoBehaviour {
 	IEnumerator LoseTime2(){
 		while (true){
 			StartCoroutine ("verificar");
-			yield return new WaitForSeconds(1);
+			yield return new WaitForSeconds(0.5f);
 			temptimeLeft--;
 		}
-	}
-	IEnumerator tiempoVerificar(){
-		WWW getresult = new WWW ("http://localhost:54744/api/posture/validar/" + rutina [i]);
-		yield return getresult;
 	}
 }
